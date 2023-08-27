@@ -6,7 +6,7 @@
     "description": "A simple plugin to resize images on the server side.\n\nIt relies on the sharp Node module.\n\nYou can see how to use the plugin on:\nhttps://bubble.io/page?name=index&id=imageresizer-26427",
     "image": "//meta-l.cdn.bubble.io/f1693143127246x836558662380704600/baseline_aspect_ratio_black_24dp.png",
     "license": "open_source",
-    "name": "ImageResizer",
+    "name": "Image Resizer",
     "plugin_instructions": "The plugin contains a single action: Resize image.\n\nUse this action in a workflow to resize an image. The width and the height of the new image must be specified, as well as whether to preserve aspect ratio.",
     "sa_node_version": 18
 }
