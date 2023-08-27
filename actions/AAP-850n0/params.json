@@ -1,0 +1,51 @@
+{
+    "category": "plugins",
+    "display": "Resize image",
+    "fields": {
+        "AAQ": {
+            "caption": "Image to resize",
+            "doc": "Original image.",
+            "editor": "DynamicValue",
+            "name": "imageToResize",
+            "rank": 0,
+            "value": "image"
+        },
+        "AAS": {
+            "caption": "Width",
+            "default_val": 1,
+            "doc": "Desired width of the image.",
+            "editor": "DynamicValue",
+            "name": "width",
+            "rank": 1,
+            "value": "number"
+        },
+        "AAT": {
+            "caption": "Height",
+            "default_val": 1,
+            "doc": "Desired height of the image.",
+            "editor": "DynamicValue",
+            "name": "height",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAU": {
+            "caption": "Preserve aspect ratio",
+            "default_val": true,
+            "doc": "If the aspect ratio is preserved, the image will be as small as possible while ensuring its dimensions are greater than or equal to both those specified.",
+            "editor": "DynamicValue",
+            "name": "preserveAspectRatio",
+            "rank": 3,
+            "value": "boolean"
+        }
+    },
+    "return_value": {
+        "AAR": {
+            "caption": "Image",
+            "name": "resizedImage",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

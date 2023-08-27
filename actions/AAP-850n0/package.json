@@ -1,0 +1,8 @@
+{
+    "dependencies": {
+        "node-fetch": "2.6.6",
+        "sharp": "latest",
+        "buffer-to-data-url": "latest",
+        "detect-libc": "1.0.3"
+    }
+}
