@@ -1,3 +1,12 @@
-This is a repository based on the [Bubble](https://bubble.io) plugin 'ImageResizer'. This lets you use Github's functionality in terms of version control, forks and pull requests. Note that the the plugin code is stored on Bubble's servers, and you need to synchronize your repository in the Bubble Plugin Editor. 
+This is Leo's plugin, slightly modified to produce PNGs instead to maintain transparency. Thanks to Leo for the original plugin.
 
- This plugin can be used in [Bubble applications](https://bubble.io).
+Original plugin link: https://bubble.io/plugin/image-resizer-1683654524342x399537649355325440
+
+Description from Leo's original plugin:
+
+A simple plugin to resize images on the server side.
+
+It relies on the sharp Node module.
+
+You can see how to use the plugin on:
+https://bubble.io/page?name=index&id=imageresizer-26427
